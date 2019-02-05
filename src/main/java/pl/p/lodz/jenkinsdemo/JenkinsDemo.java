@@ -1,9 +1,12 @@
 package pl.p.lodz.jenkinsdemo;
 
+import java.rmi.server.Operation;
+
 public class JenkinsDemo{
 
     public String demo(int input){
 
+        Operation op = new Operation("op");
         String sixvalue = "It's a six";
 
         if(input == -1){
