@@ -3,7 +3,9 @@ package pl.p.lodz.jenkinsdemo;
 public class JenkinsDemo{
 
     public String demo(int input){
-        int unnecessaryvalue;
+
+        String sixvalue = "It's a six"
+
         if(input == -1){
             return "Number must not be -1";
         }
@@ -17,15 +19,15 @@ public class JenkinsDemo{
         }
 
         if(input == 6){
-            return "It's a six";
+            return sixvalue;
         }
 
         if(input == 7){
-            return "It's a six";
+            return sixvalue;
         }
 
         if(input == 8){
-            return "It's a six";
+            return sixvalue;
         }
 
 
