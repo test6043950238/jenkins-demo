@@ -10,7 +10,7 @@ pipeline {
 
         stage ('Testing Stage') {
             steps {
-                sh 'mvn test jacoco:report'
+                sh 'mvn test'
             }
         }
     }
