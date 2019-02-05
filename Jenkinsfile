@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Build Stage') {
             steps {
-                sh 'mvn clean verify checkstyle:checkstyle pmd:pmd pmd:cpd-check findbugs:findbugs spotbugs:spotbugs jacoco:prepare-agent'
+                sh 'mvn clean verify checkstyle:checkstyle pmd:pmd pmd:cpd-check findbugs:findbugs spotbugs:spotbugs jacoco:prepare-agent test'
             }
         }
 
