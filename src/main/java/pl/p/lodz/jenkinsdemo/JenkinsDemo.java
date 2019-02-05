@@ -20,6 +20,14 @@ public class JenkinsDemo{
             return "It's a six";
         }
 
+        if(input == 7){
+            return "It's a six";
+        }
+
+        if(input == 8){
+            return "It's a six";
+        }
+
 
         return String.valueOf(input);
     }
