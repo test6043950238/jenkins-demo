@@ -5,7 +5,7 @@ public class JenkinsDemo{
     public String demo(int input){
         int unnecessaryvalue;
         if(input == -1){
-            throw new IllegalArgumentException("Number must not be -1");
+            return "Number must not be -1";
         }
 
         if(input == 2){
@@ -20,9 +20,6 @@ public class JenkinsDemo{
             return "It's a six";
         }
 
-        if(input == 6){
-            return "It's a six";
-        }
 
         return String.valueOf(input);
     }
