@@ -4,7 +4,7 @@ public class JenkinsDemo{
 
     public String demo(int input){
 
-        String sixvalue = "It's a six"
+        String sixvalue = "It's a six";
 
         if(input == -1){
             return "Number must not be -1";
