@@ -18,6 +18,20 @@ class JenkinsDemoTest{
         Assertions.assertEquals(demoString, "1");
     }
 
+    @DisplayName("Test Demo with number: 2")
+    @Test
+    public void testNumberTwo() {
+        String demoString = jd.test(2);
+        Assertions.assertEquals(demoString, "It's a two");
+    }
+
+    @DisplayName("Test Demo with number: 4")
+    @Test
+    public void testNumberTwo() {
+        String demoString = jd.test(4);
+        Assertions.assertEquals(demoString, "It's a four");
+    }
+
     @AfterEach
     public void tearDown() {
         jd = null;
