@@ -27,7 +27,7 @@ class JenkinsDemoTest{
 
     @DisplayName("Test Demo with number: 4")
     @Test
-    public void testNumberTwo() {
+    public void testNumberFour() {
         String demoString = jd.test(4);
         Assertions.assertEquals(demoString, "It's a four");
     }
