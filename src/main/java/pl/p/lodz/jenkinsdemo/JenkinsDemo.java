@@ -13,7 +13,7 @@ public class JenkinsDemo{
         }
 
         if(input == 4){
-            return "It's a two";
+            return "It's a four";
         }
 
         if(input == 6){
